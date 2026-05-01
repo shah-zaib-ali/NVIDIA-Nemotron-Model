@@ -335,8 +335,6 @@ Evaluation is run against the training set (first 950 rows) with per-category br
 
 ### Prerequisites
 
-This notebook is designed for the **Kaggle competition environment** with GPU access. It assumes:
-
 - A T4 or A100 GPU (single card, `CUDA_VISIBLE_DEVICES=0`)
 - Access to the competition dataset at `/kaggle/input/nvidia-nemotron-3-reasoning-challenge/`
 - The metric utility scripts at `/kaggle/usr/lib/notebooks/metric/nvidia_metric_utility_script/`
@@ -400,6 +398,6 @@ Set `RUN_EVALUATION = False` to skip local scoring and only generate `submission
 
 <div align="center">
 
-Made for the **NVIDIA Nemotron-3 Reasoning Challenge** on Kaggle
+
 
 </div>
